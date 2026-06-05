@@ -133,8 +133,5 @@ python rank_candidates.py
 
 submission.csv:
 
-candidate_id
-rank
-score
-reasoning
+candidate_id , rank, score, reasoning
 
