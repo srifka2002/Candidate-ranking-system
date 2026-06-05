@@ -1,33 +1,33 @@
-Problem Statement:
+###Problem Statement:
 
 Design an intelligent candidate ranking system that evaluates, scores, and ranks candidates based on job relevance using structured and unstructured profile data.
 
-Solution Overview
+###Solution Overview
 
-We propose a hybrid signal-based ranking engine that combines:
+I propose a hybrid signal-based ranking engine that combines:
 
 Experience-based scoring
 Skill relevance weighting
 Semantic keyword extraction from profiles
 Behavioral and engagement signals (recruiter activity + platform signals)
 
-Unlike traditional ATS systems that rely heavily on keyword matching, our system uses a multi-signal scoring model that evaluates both explicit skills and implicit indicators of candidate quality such as recruiter interest, GitHub activity, and role alignment.
-
-JD Understanding & Candidate Evaluation
-Key requirements extracted from JD:
+### JD Understanding & Candidate Evaluation
 Core technical skills (e.g., Python, embeddings, vector databases)
 Experience in retrieval systems, ranking, or recommendation systems
 Exposure to ML/NLP frameworks
 Practical implementation knowledge (not just theoretical)
 Industry exposure (product companies preferred)
-Most important candidate signals:
+
+
+##Most important candidate signals
 Years of experience alignment (ideal: 5–9 years)
 Retrieval/ranking/NLP-related keyword presence
 Vector DB and embedding tools (Pinecone, Weaviate, Milvus, FAISS)
 GitHub activity score
 Recruiter engagement signals
 Notice period & availability
-Beyond keyword matching:
+
+###Beyond keyword matching:
 Weighted skill scoring system
 Context extraction from headline, summary, and career history
 Behavioral signals (open-to-work, recruiter saves/views)
